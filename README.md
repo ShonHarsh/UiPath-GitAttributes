@@ -1,8 +1,8 @@
 ![](https://shonharsh.github.io/curriculum-vitae/images/banner-uipath.png)
 
-# UiPath-GitAttrributes
+# UiPath-GitAttributes
 
-This repository contains .gitattrributes files for UiPath development.  The .gitattributes file allows the GitHub linguist detect a file type.  In this case it would be to set the .xaml file to C# or VB.Net.
+This repository contains .gitattributes files for UiPath development.  The .gitattributes file allows the GitHub linguist detect a file type.  In this case it would be to set the .xaml file to C# or VB.Net.
 
 ### Getting Started
 
