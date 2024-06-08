@@ -1,41 +1,32 @@
 ![](https://shonharsh.github.io/curriculum-vitae/images/banner-uipath.png)
 
-# UiPath-GitIgnore
+# UiPath-GitAttrributes
 
-This repository contains a .gitignore file for UiPath development.
+This repository contains .gitattrributes files for UiPath development.  The .gitattributes file allows the GitHub linguist detect a file type.  In this case it would be to set the .xaml file to C# or VB.Net.
 
 ### Getting Started
 
-Download or create the .gitignore file and put it in the root of the project.  This should be the UiPath project and also the folder used for the `git init` command.
+Download or create the .gitattributes file and put it in the root of the project.  This should be the UiPath project and also the folder used for the `git init` command.
 
 ### Details
+
+###### C#
+
 ```sh
-##################################
-### UiPath Ignore Folders      ###
-##################################
-## Ignore .local folder
-.local
-.local/*
-/.local
-/.local/*
+# Automatically normalize line endings for text files
+* text=auto
 
-## Ignore .objects folder
-.objects
-.objects/*
-/.objects
-/.objects/*
+# Language CSharp
+*.xaml linguist-language=CSharp
+```
 
-## Ignore .settings folder
-.settings
-.settings/*
-/.settings
-/.settings/*
+###### VB.Net
+```sh
+# Automatically normalize line endings for text files
+* text=auto
 
-## Ignore .tmh folder
-.tmh
-.tmh/*
-/.tmh
-/.tmh/*
+# Language VB.Net
+*.xaml linguist-language=vb.net
 ```
 
 ### Links
