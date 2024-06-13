@@ -1,0 +1,5 @@
+# Automatically normalize line endings for text files
+* text=auto
+
+# Language CSharp
+*.xaml linguist-language=CSharp

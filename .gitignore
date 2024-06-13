@@ -1,36 +1,18 @@
-##################################
-### UiPath Ignore Folders      ###
-##################################
-## Ignore .local folder
-.local
-.local/*
-/.local
-/.local/*
-
-## Ignore .objects folder
-.objects
-.objects/*
-/.objects
-/.objects/*
-
-## Ignore .settings folder
-.settings
-.settings/*
-/.settings
-/.settings/*
-
-## Ignore .tmh folder
-.tmh
-.tmh/*
-/.tmh
-/.tmh/*
-
 # Folder config file
 [Dd]esktop.ini
 
 ##################################
 ### OTHER IDE and TEMP files   ###
 ##################################
+# UiPath RPA Development
+**/*.log
+**/.local/**
+**/.objects/**
+**/.settings/**
+**/.tmh/**
+
+#exercism
+**/.exercism/**
 
 ##################################
 ### Using https://gitignore.io ###
